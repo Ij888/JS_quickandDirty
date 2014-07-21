@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>innrHTML</title>
+</head>
+<body>
+<div id = "targetID">
+
+</div>
+
+<script>
+
+function(){
+var textArray = [ 'Trojan man', 'love nuts', 'grey goose', 'brave chiefs', 'KY jelly' ];
+var payload = textArray[Math.floor(Math.random() * textArray.length)];
+//var texty = Math.floor(Math.random()*textArray.length);
+document.getElementById('targetID').innerHTML=payload;
+}
+</script>
+
+</body>
+<!--innerHTML_ What really is this about??-->
+</html>
+
