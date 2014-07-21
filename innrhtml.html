@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>innrHTML</title>
@@ -6,18 +6,15 @@
 #targetID{text-align:center; font-size:100px; margin-top: 20%;}
 </style>
 </head>
-<body onload="pPayload()">
-<div id = "targetID" >
-
-</div>
+<body onload="pPayload();">
+<div id = "targetID" ></div>
 
 <script>
-
 function pPayload(){
-var textArray = [ 'Trojan man', 'love nuts', 'grey goose', 'brave chiefs', 'KY jelly' ];
+var textArray = [ 'trojan man', 'love nuts', 'grey goose', 'brave chiefs', 'KY jelly' ];
 var payload = textArray[Math.floor(Math.random() * textArray.length)];
-//var payload = Math.floor(Math.random()*textArray.length);
-document.getElementById('targetID').innerHTML = payload;
+//var payload = Math.floor(Math.random()*textArray.length); //THIS RETURNED THE ARRAY INDEX, WHY??
+document.getElementById("targetID").innerHTML = payload;
 }
 </script>
 
