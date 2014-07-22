@@ -3,20 +3,21 @@
 <head>
 <title>innrHTML</title>
 <style>
-body{text-align:center; font-size:150px; margin-top: 15%;}
+.nice{text-align:center; margin-top:15%;}
+#space{font-size:150px; }
+button{margin:0px auto;}
 </style>
 </head>
-<body>
+<body class="nice">
+<span >Click button to begin counting</span>
 <div id="space"></div>
 <button onclick="counter();">increment</button>
 <script>
-
 var num=0;
 function counter(){
  	document.getElementById("space").innerHTML = num++;
 }
 
-counter();
 </script>
 
 </body>
