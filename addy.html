@@ -3,17 +3,17 @@
 <head>
 <title>innrHTML</title>
 <style>
-body{text-align:center; font-size:40px; margin-top: 20%;}
+body{text-align:center; font-size:150px; margin-top: 15%;}
 </style>
 </head>
-<body onload="counter();">
-
+<body>
+<div id="space"></div>
+<button onclick="counter();">increment</button>
 <script>
 
-var num=1;
+var num=0;
 function counter(){
- num++;
-	document.write(num++);
+ 	document.getElementById("space").innerHTML = num++;
 }
 
 counter();
