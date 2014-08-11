@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang = "en">
+ <head>
+ <title>screenDimensions</title>
+ <style>#wide{ margin: 0px auto; margin-top: 25%; display:block; text-align:center;}</style>
+ </head>
+ <body>
+	<script>
+		function wWidth(){
+			document.getElementById("wide").innerHTML=screen.width;
+		}
+		
+		function hHeight(){
+			document.getElementById("wide").innerHTML=screen.height;
+		}
+		
+		function aWidth(){
+			document.getElementById("wide").innerHTML=screen.availWidth;
+		}
+		
+		function aHeight(){
+			document.getElementById("wide").innerHTML=screen.availHeight;
+		}
+	</script>
+	<div id="wide">
+	<button onclick="wWidth();">Get Screen Width</button>
+	<button onclick="hHeight();">Get Screen Height</button>
+	<button onclick="aWidth();">Get available screen width</button>
+	<button onclick="aHeight();">Get available screen height</button>
+	</div>
+ </body>
+</html>
