@@ -5,5 +5,4 @@ function someFunction(param1, param2){
 		return sum;
 }
 
- var add = someFunction(3, 4);
-	document.write(add);
+ 
