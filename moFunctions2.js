@@ -1,8 +1,8 @@
 //studies in JS engineering
 
 function someFunction(param1, param2){
-		var sum = param2 + param1;
-		return sum;
+		document.write(param2 + "or a some shade of" + param1)
 }
 
+someFunction(grey, red)
  
