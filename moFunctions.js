@@ -6,4 +6,4 @@ function someFunction(param1, param2,..., paramn){
 }
 
  var add = someFunction(3, 4);
-	alert(add);
+	document.write(add);
