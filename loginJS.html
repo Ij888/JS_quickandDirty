@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/main.css">
+	<style>
+	 body{padding:200px 0 0 150px; font-size:30px; font-family:courier new; font-weight:bold;} input{display:block; margin-bottom:10px;}
+	</style>
+    </head>
+    <body>
+
+        <p>PushStream k177</p>
+
+		<form name="login">
+<input name="id" type="text">
+<input name="pass" type="password">
+<input type="button" value="Login" onClick="pasuser(this.form)">
+<input type="Reset">
+</form>
+		
+        <script>
+					//studies in JS engineering
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+
+function pasuser(form) {
+if (form.id.value=="JavaScript") { 
+if (form.pass.value=="Kit") {              
+location="page2.html" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+					
+		</script>
+    </body>
+</html>
