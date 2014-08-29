@@ -14,7 +14,7 @@
 		<form name="login">
 <input name="id" type="text">
 <input name="pass" type="password">
-<input type="button" value="Login" onClick="pasuser(this.form)">
+<input type="button" value="Login" onClick="getIn(this.form)">
 <input type="Reset">
 </form>
 		
@@ -23,15 +23,15 @@
 /*This Script allows people to enter by using a form that asks for a
 UserID and Password*/
 
-function pasuser(form) {
-if (form.id.value=="JavaScript") { 
-if (form.pass.value=="Kit") {              
-location="page2.html" 
-} else {
-alert("Invalid Password")
-}
-} else {  alert("Invalid UserID")
-}
+function getIn(form) {
+	if (form.id.value=="user") { 
+	if (form.pass.value=="bada55") {              
+	location="page2.html" 
+		} else {
+	alert("Invalid Password or Invalid UserID")
+	}
+		} else {  alert("Invalid Password or Invalid UserID")
+	}
 }
 					
 		</script>
