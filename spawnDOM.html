@@ -5,20 +5,20 @@
         <link rel="stylesheet" href="css/main.css">
         <!--script src="spawnDOM.js"></script-->
 	<style>
-	 body{padding:200px 0 0 150px; font-size:30px; font-family:courier new; font-weight:bold;}
+	 body{padding:200px 0 0 150px; font-size:30px; font-family:courier new; font-weight:bold;} div{display:block; border:2px solid black;}
 	</style>
     </head>
     <body>
 
         <p>PushStream k177</p>
-
+        <button onclick="createTextArea();">Lets go</button>
         <script>
 					//studies in JS engineering
-        var nNode = document.createElement("textarea");
-        var tText = document.createTextNode("whatAreYouDoing");
-        nNode.appendChild(tText); 
+        function createTextArea(){
+        var nNode = document.createElement("div");
         document.body.appendChild(nNode);    
-					
+    
+        }
 		</script>
     </body>
 </html>
