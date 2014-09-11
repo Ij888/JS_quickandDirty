@@ -9,6 +9,7 @@ xhr.onreadystatechange = function(){
     // Ready state 4 means the request is done
     if(xhr.readyState === 4){
         // 200 is a successful return
+        alert(200 is a successful return);
         if(xhr.status === 200){
             alert(xhr.responseText); // 'This is the returned text.'
         }else{
