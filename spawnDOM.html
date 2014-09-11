@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="css/main.css">
         <!--script src="spawnDOM.js"></script-->
 	<style>
-	 body{padding:200px 0 0 150px; font-size:30px; font-family:courier new; font-weight:bold;} div{display:block; border:2px solid black;}
+	 body{padding:200px 0 0 150px; font-size:30px; 
+         font-family:courier new; font-weight:bold;} 
+        textarea{display:block;}
 	</style>
     </head>
     <body>
@@ -15,7 +17,7 @@
         <script>
 					//studies in JS engineering
         function createTextArea(){
-        var nNode = document.createElement("div");
+        var nNode = document.createElement("textarea");
         document.body.appendChild(nNode);    
     
         }
