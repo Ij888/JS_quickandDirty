@@ -1,4 +1,4 @@
-//studies in JS engineering
+
 
 
 <!DOCTYPE html>
@@ -19,13 +19,11 @@
 
 
     <script>
-		function someFunction(param1, param2){
-		var sum = param2 + param1;
-		return sum;
-}
-
- var add = someFunction(3, 4);
-	document.write(add);
+		weapons("canon", "ECM");
+		
+		function weapons(projectile, defence){
+			document.write("a top mounted" +projectile+ "with "+defence + "feature");
+		}
     </script>
     </body>
 </html>
