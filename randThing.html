@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <title>RND</title>
+	<style>
+	 body{padding:200px 0 0 150px; font-size:30px; font-family:courier new; font-weight:bold; background-color: #fe3488;}
+     #show{color:#9e00fa;}
+        .button{padding: 10px; background: #34fe88; display: inline-block;}
+	</style>
+    </head>
+    <body>
+        <p>PushStream k177</p>
+        <div class = "button">Click</div>
+        <div id = "show"></div>
+
+        <script>
+        
+        var items = ["k177", "deeke", "PaulWall", "000", "1.5Le"];
+        var rand = Math.floor(Math.random()*items.length);
+        document.getElementById("show").innerHTML = items[rand];
+        
+
+        
+		</script>
+    </body>
+</html>
