@@ -16,3 +16,8 @@ function test(){
 
 test();
 alert(message); //
+
+/*
+by removing the var operator from the first example, the message variable becomes global.
+See pg 30, Pro JS for WD.
+ */
