@@ -1,3 +1,9 @@
 //Miscellaneous JS idiosyncrasies
 
 DATA TYPES_"undefined", "boolean", "string", "number", "object", "function" 
+
+#using typeof_this method gets the type of datatype passed in its parameter, like so
+	var message = "some string";
+	 alert (typeof message); //"string"
+	 alert (typeof (message)); //"string"
+	 alert (typeof 28); //"number"
