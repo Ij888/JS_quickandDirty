@@ -21,3 +21,9 @@ alert(message); //
 by removing the var operator from the first example, the message variable becomes global.
 See pg 30, Pro JS for WD.
  */
+
+/*****************/
+ /*multiple variables can be defined and initialized, like so */
+ var message = "hi",
+	 sent = false'
+	 attempts = 4;
