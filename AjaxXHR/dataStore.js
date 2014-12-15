@@ -25,8 +25,36 @@ function createXmlHttpRequestObject(){
 function process(){
 	if(xmlHttp.readyState==0 || xmlHttp.readyState==4){
 		data = encodeURIComponent(document.getElementById("userInput").value);
-		xmlHttp.open
+		xmlHttp.open("GET", "dataStore.php?dData="+dData, true);
+		xml.onreadystatechange = handleServerResponse;
+		xmlHttp.send(null);
 	}else{
-	
+		setTimeout('process()', 1000);
 	}
 }
+
+function handleServerResponse(){
+		if(xmlHttp.readyState==4){
+			if(xmlHttp.status==200){
+				xmlResponse = xmlHttp.responseXML;
+				xmlDocumentElement = xmlResponse.documentElement;
+				message = xmlDocumentElement.firstChild.data;
+				
+			}
+		}else{
+		
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
