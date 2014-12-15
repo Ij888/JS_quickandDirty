@@ -39,10 +39,10 @@ function handleServerResponse(){
 				xmlResponse = xmlHttp.responseXML;
 				xmlDocumentElement = xmlResponse.documentElement;
 				message = xmlDocumentElement.firstChild.data;
-				
-			}
+				document.getElementById("underInput").innerHTML = '<span style="color:red;">'+ message + </span>;
+				setTimeout('process()', 1000);
 		}else{
-		
+			alert('Server made a booboo...!');
 		}
 }
 
