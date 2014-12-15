@@ -21,3 +21,12 @@ function createXmlHttpRequestObject(){
 	else
 		return xmlHttp;
 }
+
+function process(){
+	if(xmlHttp.readyState==0 || xmlHttp.readyState==4){
+		data = encodeURIComponent(document.getElementById("userInput").value);
+		xmlHttp.open
+	}else{
+	
+	}
+}
