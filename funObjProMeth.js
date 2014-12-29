@@ -3,7 +3,7 @@ function addr(){
 	return 
 }
 
-var post = 
+var posts = 
 [
 Lorem Ipsum type post, 
 Goodbye things, 
@@ -14,4 +14,4 @@ lay it all down,
 the revolution is not today
 ];
 
-var posts = {};
+var posted_by = {};
