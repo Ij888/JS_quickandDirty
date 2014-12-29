@@ -45,16 +45,3 @@ function handleServerResponse(){
 			alert('Server made a booboo...!');
 		}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
