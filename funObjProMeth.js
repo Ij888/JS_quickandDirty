@@ -14,4 +14,4 @@ lay it all down,
 the revolution is not today
 ];
 
-var posted_by = {};
+var posted_by = {//create somethong};
