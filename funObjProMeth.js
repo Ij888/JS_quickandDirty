@@ -1,9 +1,13 @@
 //authored by Ij888
 
 var posted_by = {};
-    posted_by.pulitzerPrize = "person1"; 
+    posted_by.pulitzer,// = "person1",
+    posted_by.postDate,
+    posted_by.topic;
 
-document.write(posted_by.pulitzerPrize);
+    posted_by.pulitzer = "person1";
+
+document.write(posted_by.pulitzer);
 
 
 /*
