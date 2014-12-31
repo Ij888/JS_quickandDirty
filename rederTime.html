@@ -9,6 +9,9 @@
         <script>
             var start = new Date();
             var now = start.getTime();
+			for(var i=0; i < 100000000; i++){
+				//this is to give the js a task to do to cause some delay ;) 
+			}
 		</script>
     </head>
     <body id = "box2">
@@ -16,9 +19,10 @@
         <script>
             var end = new Date();
             var diff = (end.getTime() - now)/1000;
-            var renderTime = diff.toPrecision(5);
+            var renderTime = diff.toPrecision(4);
 
            document.getElementById("box2").innerHTML = renderTime;
+            <!--attempt to put these scripts in a function-->
 		</script>
     </body>
 </html>

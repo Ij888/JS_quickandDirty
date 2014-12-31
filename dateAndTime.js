@@ -10,7 +10,6 @@ diff = Math.floor(diff / (1000 * 60 * 60 * 24));
 */
 
 //evaluate browser render time
-
 var start = new Date();
 var now = start.getTime();
 
