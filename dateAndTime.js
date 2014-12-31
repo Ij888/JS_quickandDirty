@@ -1,3 +1,5 @@
 //dateAndTime.js
-document.getElementById("box2").innerHTML = "gGrtrrr";
+var dDate = new Date();
+
+document.getElementById("box2").innerHTML = dDate;
  //why the ***k...?!
