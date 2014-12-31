@@ -14,6 +14,6 @@ lay it all down,
 the revolution is not today
 ];
 
-var posted_by = {key1: 'value1', key2: 'value2',  
+var posted_by = {key1: 'value1', key2: 'value2', key3: 'value3'
 
 };
