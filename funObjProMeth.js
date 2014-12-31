@@ -1,5 +1,5 @@
 //authored by Ij888
-function addr(){
+/*function addr(){
 	return 
 }
 
@@ -12,8 +12,9 @@ one white small book,
 a tale of two halves, 
 lay it all down, 
 the revolution is not today
-];
+];*/
 
-var posted_by = {key1: 'value1', key2: 'value2', key3: 'value3'
+var posted_by = {pulitzerPrize : "person1"};
+    //posted_by.pulitzerPrize = "person1"; 
 
-};
+document.write(posted_by.pulitzerPrize);
