@@ -1,11 +1,8 @@
-//JS_mechanic
+
 
 var dataDump = {
-  key: value,
-  yeti: thing,
-  place:"etherspace",
-  yui:"initiated"
-
+  key: "value",
+  yeti: "thing#2",
+  place: "etherspace",
+  yui: "initiated"
   };
-
-return dataDump.place;

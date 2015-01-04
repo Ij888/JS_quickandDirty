@@ -1,0 +1,12 @@
+//ways of outputting JS
+
+1. alert() //and to some extent prompt(), confirm()
+2. console.log()
+3. document.write()
+4. document.getElementByID().innerHTML = thing to be output
+5. document.getElementByTagName().innerHTML = thing to be output
+
+using node
+6. complete your js file and run it by node in terminal thus-
+ node "path-to-JS-file.js"
+7. type out actual js snippets in node terminal
