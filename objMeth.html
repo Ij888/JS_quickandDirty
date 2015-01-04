@@ -2,15 +2,31 @@
 <html lang="en">
 <head>
 <title>objects and methods</title>    
+<script src='objecthandling.js'></script>
+<style>
+    body{font-family: courier; font-size: 35px;}
+    #box{color: #d45;}
+</style>
 </head>
 <body>
-    pushStream-ssD<br>
+    pushStream-OBJh<br>
+<div id = 'box'></div>    
 <script>
+/*
 //when we combine functions with objects, we get methods. An array is an object in JS, as also in Java.
     var a =[];  //create an empty array
     a.push(1,2,3);
-    //a.reverse; //another method that reverses the order of the elements
-    document.write(a);
-</script>    
+    a.reverse; //another method that reverses the order of the elements
+*/
+   //why does this work-
+    var pPrint =
+    document.getElementById('box');                     pPrint.innerHTML = person1.fName;
+    /*
+    and not
+    var pPrint =
+    document.getElementById('box').innerHTML;           pPrint = person1.fName;
+    */
+
+    </script>    
 </body>
 </html>
