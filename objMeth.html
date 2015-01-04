@@ -5,7 +5,7 @@
 <script src='objecthandling.js'></script>
 <style>
     body{font-family: courier; font-size: 35px;}
-    #box{color: #d45;}
+    #box{color: #d45; font-weight: bold;}
 </style>
 </head>
 <body>
@@ -20,7 +20,7 @@
 */
    //why does this work-
     var pPrint =
-    document.getElementById('box');                     pPrint.innerHTML = person1.fName;
+    document.getElementById('box');                     pPrint.innerHTML = (person1.fName +' '+ person1.lName);
     /*
     and not
     var pPrint =
