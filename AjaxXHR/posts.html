@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang = en></html>
+    <head>
+        <title>All the blog posts</title>
+        <scripts>
+            var xmlhttp;
+            function getBands(){
+                xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = loadData;
+                xmlhttp.open("GET", "posts.php", true );
+                xmlhttp.send();
+            }
+        </scripts>
+    </head>
+<body>
+    
+</body>
+</html>
