@@ -2,17 +2,25 @@
 <html lang = en></html>
     <head>
         <title>All the blog posts</title>
-        <scripts>
+        <script>
             var xmlhttp;
-            function getBands(){
+            function getPosts(){
                 xmlhttp = new XMLHttpRequest();
                 xmlhttp.onreadystatechange = loadData;
                 xmlhttp.open("GET", "posts.php", true );
                 xmlhttp.send();
             }
-        </scripts>
+            
+            function loadData(){
+                if(xmlhttp.readyState==4 && xmlhttp.status==200){
+            var postXML = xmlhttp.responseXML;
+            console.log(postXML);
+                }
+            }
+        </script>
     </head>
 <body>
-    
+    <div id = "result"></div>
+    <input type="button" value="get posts!" onclick="getPosts()"/>
 </body>
 </html>
