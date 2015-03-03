@@ -1,0 +1,20 @@
+progress{
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: 20px;
+  width: 95%;
+  height: 20px;}
+
+.fl{float: left;}
+.fr{float: right;}
+.row{margin-bottom: 20px;}
+.centre{margin:0px auto;}
+
+.button{padding:10px 30px; display:inline-block; background: #c4c4c4;}
+
+.windw{padding:10px 25px;
+  background: #e3e9e3; border-bottom: 5px solid #ddd;}
+
+.btn-font{font-family:arial;}
+
+.wndw-font{font-family:courier;}
