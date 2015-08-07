@@ -1,5 +1,15 @@
-var dDouble = function(n){
-    return n*n;
+//var dDouble = function(n){
+//    return n*n;
+//}
+
+//console.log(
+//  dDouble(5)
+// );
+
+//###########==############//
+
+var thing = function(){
+    console.log("shoutcast");
 }
 
-console.log(dDouble(5));
+thing();
