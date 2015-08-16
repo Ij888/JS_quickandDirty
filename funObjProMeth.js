@@ -1,14 +1,10 @@
 //authored by Ij888
-
 var posted_by = {};
-    posted_by.writer,// = "person1",
-    posted_by.postDate,
-    posted_by.topic;
+ posted_by.writer = "somePerson";
+ posted_by.postDate = "TheDate";
+ posted_by.topic = "theTopic";
 
-    posted_by.writer = "person1";
-
-document.write(posted_by.writer);
-
+document.getElementById("pane").innerHTML = (posted_by.writer);
 
 /*
 var posts = 
