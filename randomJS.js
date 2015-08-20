@@ -7,6 +7,6 @@
         document.getElementById("pane2").innerHTML = rnd2;
 
 /*function showAlert(){
-    alert("@110011@");
+    alert("BufferStream");
 }
 */
