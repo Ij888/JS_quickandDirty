@@ -6,7 +6,3 @@
         document.getElementById("pane1").innerHTML = rnd1;
         document.getElementById("pane2").innerHTML = rnd2;
 
-/*function showAlert(){
-    alert("BufferStream");
-}
-*/
