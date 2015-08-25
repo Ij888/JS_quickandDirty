@@ -1,47 +1,35 @@
 <!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <title>RND</title>
-        <style>
-            *{padding: 0px; margin: 0px;}
-         body{padding-top:100px;
-             text-align: center;
-             font-size:30px; 
-             font-family: monospace; 
-             font-weight:bold; 
-             //background-color: #fe3488;}
-            
-            #show{color:#9e00fa;}
-            
-            .button{padding: 10px; 
-                    background: #34fe88; 
-                    display: inline-block;}
-            .fl{float: left;}
-            
-            #pane1, #pane2{display:block; width: 100%; padding: 40px 0; margin: 0px auto;}
-            #pane1{background-color: #F22613; }
-            #pane2{background-color: #049372;}
-            #paneText{background-color: #59ABE3; width: 45%;}
-            #panes{}
-            
-        </style>
-           
-    </head>
-    <body>
-        <p>PushStream k177</p>
-        
-        <div>
-            <div id = "panes" >
-                <div id = "pane1"></div>
-                <div id = "pane2"></div>
-            </div>
-            
-            <!--div id = "paneText" class = "">
-                Pane for Text
-            </div-->
-        </div>
-        
-        <!--div class = "button" onclick="showAlert()">Click</div-->
-        <script src = "randomJS.js"></script> 
-    </body>
+<html>
+<head>
+<!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+<link href="randThing.css" rel = "stylesheet">
+
+</head>
+<body>
+
+<div id = 'headr'>
+ignots of hope
+</div>
+
+<div class = 'container'>
+
+<div class ='leftdiv wWidth'>
+<div class = 'tleft fWidth'>tLeft</div>
+<div class = 'dleft fWidth'>dLeft</div>
+</div>
+
+<div class = 'rightdiv wWidth'>
+<div class = 'rt fWidth'>All the divs to the right get their values from the random function <span>function()</span>, and populates the innerHTML therein. <br> 
+However not all works.
+    
+All the divs to the right get their values from the random function <span>function()</span>, and populates the innerHTML therein. <br> 
+However not all works.    
+</div>
+</div>
+
+</div>
+
+<div class = 'button cntre' onclick="rand1()">getNewNumbr</div>
+<div id='footr'>handcrafted.</div>
+</body>
 </html>

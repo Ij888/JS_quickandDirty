@@ -6,3 +6,6 @@
         document.getElementById("pane1").innerHTML = rnd1;
         document.getElementById("pane2").innerHTML = rnd2;
 
+function rand1(){
+ document.getElementById("pane1").innerHTML = rnd1;
+}
