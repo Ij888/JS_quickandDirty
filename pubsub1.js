@@ -28,11 +28,10 @@ publish: function(topic, info){
     if(!hOP.call(topics, topic)) return;
     
     //cycle through topics queue, then execute.
-    topics[topic].forEach(funtion(item){
-        item(info != undefined ? info :{});
-    }),
-    
-}          
-        };
+    topics[topic].forEach(function(item){
+            item(info !== undefined ? info :{});
+         });
+        }          
+      };
 })();
 
