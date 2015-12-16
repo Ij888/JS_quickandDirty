@@ -10,7 +10,7 @@
         rnd3 = Math.ceil(Math.random()*4);
         rnd4 = Math.floor(Math.random()*3);
 
-//fourWord = aArray[rnd2] + aArray[rnd3] + aArray[rnd4] + aArray[rnd4];
-   var treat = aArray[rnd2]
+fourWord = aArray[rnd2] + aArray[rnd3] + aArray[rnd4] + aArray[rnd4];
+
     //document.getElementById('box').innerHTML = word;
-console.log(treat);
+console.log(fourWord);
