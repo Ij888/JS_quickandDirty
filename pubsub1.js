@@ -35,3 +35,11 @@ publish: function(topic, info){
       };
 })();
 
+
+/*Publishing to a topic*/
+events.publish('/page/load', {
+    url: '/some/url/path' //any argument
+});
+
+/*Subscribing to said topic to receive events*/
+var subscription = events.subscribe
