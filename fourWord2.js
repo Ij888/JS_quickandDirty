@@ -10,4 +10,4 @@ function makeid()
     
 }
 
-console.log(makeid());
+console.log(makeid);
