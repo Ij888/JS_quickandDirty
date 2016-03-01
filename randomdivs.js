@@ -10,4 +10,6 @@
 function rand1(){
  document.getElementById("pane1").innerHTML = rnd1;
 }
+
+TODO Make to open disparate random divs
 */
