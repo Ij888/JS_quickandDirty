@@ -2,20 +2,30 @@
 <html class="no-js">
     <head>
         <title></title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
-	<style>
-	 body{padding:200px 0 0 150px; font-size:20px; font-family:courier new; font-weight:bold;}
-	</style>
     </head>
     <body>
 
         <p>PushStream k177</p>
 		
-		<button>START</button>
+		<button onclick="payload">START</button>
 		<button>STOP</button>
 		
-		<div class="timePort"></div>
+		<div class="container">
+			<div class="row">
+				<div class="timePort"></div>
+			</div>
+		</div>
 		
+		<button onclick="myFunction()">Try it</button>
+
+		<script>
+			function myFunction() {
+			setInterval(function(){ alert("Hello"); }, 3000);
+			}
+		</script>
+	
 		<script>
 			function(tapIn){
     		moment().format();
