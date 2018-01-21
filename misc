@@ -7,3 +7,8 @@ DATA TYPES_"undefined", "boolean", "string", "number", "object", "function"
 	 alert (typeof message); //"string"
 	 alert (typeof (message)); //"string"
 	 alert (typeof 28); //"number"
+
+var object = {};
+    object.item1 = 275;
+    object.item2 = "someString";
+    object.item3 = 9.703;
